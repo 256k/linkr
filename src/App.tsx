@@ -286,12 +286,19 @@ function App() {
   };
 
   const handleAddItem = async (url: string, title: string | undefined, tags: string[]) => {
+    if (!user) return;
+    
     const finalTitle = title || (tags.length > 0 ? tags[0] : undefined);
 
     try {
       const { data, error } = await supabase
         .from('urls')
-        .insert({ url, title: finalTitle, tags })
+        .insert({ 
+          url, 
+          title: finalTitle, 
+          tags,
+          user_id: user.id 
+        })
         .select()
         .single();
       
