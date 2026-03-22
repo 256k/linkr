@@ -1,5 +1,10 @@
+## DISCLAIMER:
+---
+## THIS WEBAPP HAS BEEN ENTIRELY VIBE CODED USING OPENCODE AGENT
+## THIS WAS AN ATTEMPT AT EXPLORING WHAT THE VIBE CODING EXPERIENCE AND TOOLS OFFER
+## THIS IS NOT TO BE TAKEN AS PRAISE OR VALIDATION OF AI VIBE CODING
+---
 # Linkr - Personal Link Manager
-
 A sleek, minimalist link management dashboard where you can organize and quickly find URLs using tags.
 
 ## Features
